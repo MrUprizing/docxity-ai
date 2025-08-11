@@ -8,7 +8,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { ShieldAlert } from "lucide-react";
-import { Link } from "next-view-transitions";
+import Link from "next/link";
 
 export default function NotAuthenticated() {
   return (

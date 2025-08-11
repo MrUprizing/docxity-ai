@@ -17,7 +17,7 @@ import {
 } from "@/components/ui/sidebar";
 import { useOrganizationList } from "@clerk/nextjs";
 import { ChevronsUpDown, Plus } from "lucide-react";
-import { Link } from "next-view-transitions";
+import Link from "next/link";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import { DialogCreateOrganization } from "./create-organization";
 import { TeamSwitcherSkeleton } from "./team-switcher-skeleton";

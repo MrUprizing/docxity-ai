@@ -8,7 +8,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { ShieldBan } from "lucide-react";
-import { Link } from "next-view-transitions";
+import Link from "next/link";
 
 export default function Forbidden() {
   return (

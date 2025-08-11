@@ -1,7 +1,7 @@
 import Particles from "@/components/ui/particles";
 import { auth } from "@clerk/nextjs/server";
 // import Particles from "@/components/ui/particles";
-import { Link } from "next-view-transitions";
+import Link from "next/link";
 import { redirect } from "next/navigation";
 
 export default async function Home() {

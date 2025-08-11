@@ -14,7 +14,7 @@ import {
   CommandSeparator,
 } from "@/components/ui/command";
 import { SidebarMenuButton } from "../ui/sidebar";
-import { Link } from "next-view-transitions";
+import Link from "next/link";
 
 export default function SearchSidebar() {
   const [open, setOpen] = React.useState(false);
@@ -65,7 +65,11 @@ export default function SearchSidebar() {
           <CommandGroup heading="Navigation">
             <CommandItem asChild>
               <Link href={`/team/${params.slug}`} prefetch={true}>
-                <LayoutPanelTop size={16} className="opacity-60" aria-hidden="true" />
+                <LayoutPanelTop
+                  size={16}
+                  className="opacity-60"
+                  aria-hidden="true"
+                />
                 <span>Go to Dashboard</span>
               </Link>
             </CommandItem>
@@ -77,7 +81,11 @@ export default function SearchSidebar() {
             </CommandItem>
             <CommandItem asChild>
               <Link href={`/team/${params.slug}/repositories`} prefetch={true}>
-                <GitBranch size={16} className="opacity-60" aria-hidden="true" />
+                <GitBranch
+                  size={16}
+                  className="opacity-60"
+                  aria-hidden="true"
+                />
                 <span>Go to Repositories</span>
               </Link>
             </CommandItem>

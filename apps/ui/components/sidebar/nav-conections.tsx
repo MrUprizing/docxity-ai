@@ -17,7 +17,7 @@ import {
 } from "@/components/ui/sidebar";
 import { auth } from "@clerk/nextjs/server";
 import { getGithubInstallationsByOrgId } from "@docxity/database";
-import { Link } from "next-view-transitions";
+import Link from "next/link";
 
 export async function NavConections() {
   const { orgId } = await auth();

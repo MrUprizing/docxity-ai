@@ -9,7 +9,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
-import { Link } from "next-view-transitions";
+import Link from "next/link";
 import { useParams, usePathname } from "next/navigation";
 import { OrganizationProfileButton } from "./nav-organization-profile";
 

@@ -23,7 +23,7 @@ import {
   LucideGithub,
   MoreHorizontal,
 } from "lucide-react";
-import { Link } from "next-view-transitions";
+import Link from "next/link";
 import DialogCreate from "./components/dialog-create";
 
 export default async function Page() {
