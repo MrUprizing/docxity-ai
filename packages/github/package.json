@@ -1,0 +1,13 @@
+{
+  "name": "@docxity/github",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "lint": "biome check .",
+    "lint:fix": "biome check --write ."
+  },
+  "dependencies": {
+    "octokit": "^4.1.4"
+  }
+}

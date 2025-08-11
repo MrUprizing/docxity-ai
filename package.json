@@ -1,0 +1,20 @@
+{
+	"name": "docxity",
+	"private": true,
+	"scripts": {
+		"dev": "turbo dev",
+		"build": "turbo build",
+		"lint": "turbo lint",
+		"test": "turbo test"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/bun": "latest",
+		"turbo": "^2.5.3"
+	},
+	"packageManager": "bun@1.2.12",
+	"workspaces": ["apps/*", "packages/*"],
+	"dependencies": {
+	
+	}
+}

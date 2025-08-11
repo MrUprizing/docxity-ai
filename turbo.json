@@ -1,0 +1,39 @@
+{
+  "$schema": "https://turborepo.com/schema.json",
+  "globalEnv": [
+    ".env",
+    "DATABASE_URL_",
+    "password",
+    "DATABASE_URL",
+    "JWT_SECRET",
+    "GITHUB_APP_ID",
+    "ANTHROPIC_API_KEY",
+    "GITHUB_WEBHOOK_SECRET",
+    "GITHUB_APP_PRIVATE_KEY"
+  ],
+  "tasks": {
+    "dev": {
+      "persistent": true,
+      "cache": false
+    },
+    "lint": {
+      "persistent": true,
+      "cache": false
+    },
+    "lint:fix": {
+      "persistent": true,
+      "cache": false
+    },
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": [".next/**", "!.next/cache/**", "dist/**"]
+    },
+    "start": {
+      "persistent": true,
+      "cache": false
+    },
+    "check-types": {
+      "dependsOn": ["^check-types"]
+    }
+  }
+}

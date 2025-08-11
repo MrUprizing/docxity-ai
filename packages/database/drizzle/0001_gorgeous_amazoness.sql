@@ -1,0 +1,1 @@
+ALTER TABLE "automations" ALTER COLUMN "source_branch" DROP NOT NULL;

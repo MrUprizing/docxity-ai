@@ -1,0 +1,22 @@
+{
+  "name": "@docxity/database",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "lint": "biome check .",
+    "lint:fix": "biome check --write ."
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "drizzle-orm": "^0.43.1",
+    "nanoid": "^5.1.5",
+    "pg": "^8.15.6"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.13",
+    "@types/pg": "^8.15.1",
+    "drizzle-kit": "^0.31.1",
+    "tsx": "^4.19.4"
+  }
+}

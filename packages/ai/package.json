@@ -1,0 +1,12 @@
+{
+  "name": "@docxity/ai",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "type": "module",
+  "dependencies": {
+    "@ai-sdk/anthropic": "^1.2.11",
+    "@ai-sdk/perplexity": "^1.1.9",
+    "ai": "^4.3.15",
+    "zod": "^3.25.7"
+  }
+}

@@ -1,0 +1,1 @@
+ALTER TABLE "automations" ALTER COLUMN "event_type" SET DEFAULT 'push';

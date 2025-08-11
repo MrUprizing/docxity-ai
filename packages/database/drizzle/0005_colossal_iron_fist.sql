@@ -1,0 +1,1 @@
+ALTER TABLE "automations" ADD COLUMN "target_folder" varchar(255) DEFAULT 'docs';
